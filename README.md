@@ -25,3 +25,10 @@
    ```
    make create_super_user
    ```
+
+
+
+# Командная работа:
+[Стивен Альтамирано](https://github.com/Munewxar)
+
+[Кирилл Якименков](https://github.com/TiGrib)
