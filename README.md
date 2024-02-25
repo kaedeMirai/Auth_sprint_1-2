@@ -1,3 +1,9 @@
+# Service Auth API
+### Проект Онлайн-Кинотеатра. 
+Сервис аутентификации и авторизации 
+Сервис авторизации с системой ролей, написанный на FastAPI. Для надёжности используются jwt-токены. Дополнительно, для регистрации подключены Yandex OAuth2.0. 
+Стек: python, fastapi, redis, postgresql, elasticsearch, jaeger, docker, nginx.
+
 # Где найти код?
 1. [Auth API](https://github.com/Munewxar/Auth_sprint_1) - здесь хранится код auth api
 2. [Async API](https://github.com/Mario8602/Async_API_sprint_1) - здесь хранится код async api
@@ -25,10 +31,13 @@
    ```
    make create_super_user
    ```
+Запуск тестов:
 
+```python
+make run_tests
+```
 
+# Авторы:
+Стивен Альтамирано [@Munewxar](https://github.com/Munewxar)
 
-# Командная работа:
-[Стивен Альтамирано](https://github.com/Munewxar)
-
-[Кирилл Якименков](https://github.com/TiGrib)
+Кирилл Якименков  [@TiGrib](https://github.com/TiGrib)
