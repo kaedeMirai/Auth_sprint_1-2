@@ -1,8 +1,10 @@
-# Service Auth API
-### Проект Онлайн-Кинотеатра. 
-Сервис аутентификации и авторизации 
-Сервис авторизации с системой ролей, написанный на FastAPI. Для надёжности используются jwt-токены. Дополнительно, для регистрации подключены Yandex OAuth2.0. 
-Стек: python, fastapi, redis, postgresql, elasticsearch, jaeger, docker, nginx.
+# Проект "Онлайн Кинотеатр"
+
+# Сервис Auth
+
+Репозиторий для сервиса авторизации и управления ролями, написанного на FastAPI. Этот сервис является частью проекта "Онлайн Кинотеатр" и обеспечивает безопасную аутентификацию пользователей, а также управление их ролями. Для повышения безопасности используются JWT-токены. Кроме того, для удобства регистрации подключена возможность аутентификации через Yandex OAuth2.0.
+
+Стек технологий: python, fastapi, redis, postgresql, elasticsearch, jaeger, docker, nginx.
 
 ## Содержание:
 
@@ -14,11 +16,6 @@
 - [Notification service](https://github.com/kaedeMirai/notifications_sprint_1) - **Отправка уведомлений пользователям о важных событиях и акциях в кинотеатре.**
 - [Watch Together service](https://github.com/kaedeMirai/graduate_work) - **Позволяет пользователям смотреть фильмы совместно в реальном времени, обеспечивая синхронизацию видео и чата.**
 
-# Где найти код?
-1. [Auth API](https://github.com/Munewxar/Auth_sprint_1) - здесь хранится код auth api
-2. [Async API](https://github.com/Mario8602/Async_API_sprint_1) - здесь хранится код async api
-3. [Admin panel](https://github.com/Munewxar/new_admin_panel_sprint_2) - здесь хранится код admin panel
-
 # Ссылка на документацию api
 1. http://localhost:8000/api/openapi#
 
@@ -26,7 +23,7 @@
 1. Склонировать репозиторий
 
    ```
-   git clone https://github.com/Mario8602/Auth_sprint_1.git
+   git clone https://github.com/kaedeMirai/Auth_sprint_1.git
    ```
 2. Скопировать .env.example в .env (либо переименовать .env.example) и заполнить его
 4. В командной строке запустить проект
@@ -47,7 +44,10 @@
 make run_tests
 ```
 
-# Авторы:
-Стивен Альтамирано [@Munewxar](https://github.com/Munewxar)
+## Над проектом работали:
 
-Кирилл Якименков  [@TiGrib](https://github.com/TiGrib)
+#### Стивен Альтамирано [@Munewxar](https://github.com/Munewxar)
+
+#### Кирилл Якименков [@TiGrib](https://github.com/TiGrib)
+
+#### Марат Ахметзянов [@kaedeMirai](https://github.com/kaedeMirai)
